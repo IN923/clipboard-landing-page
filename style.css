@@ -15,7 +15,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -140px;
+    margin-top: -130px;
+}
+
+.logo img {
+    width: 90px;
+    margin: 12px;
 }
 
 .content {
@@ -96,7 +101,7 @@
 .image-devices {
     max-width: 280px;
     margin: auto;
-    padding: 4rem 0 2rem 0;
+    padding: 5rem 0 2rem 0;
     display: block;
 }
 
@@ -167,30 +172,181 @@
 .quick-links img {
     max-width: 50px;
     display: block;
-    margin: auto;
     padding: 2rem 0 2rem 0;
 }
 
-.quick-links ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.quick-links ul li {
-    list-style-type: none;
+.quick-link-options a {
+    text-decoration: none;
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
     font-size: 20px;
     font-family: "Bai Jamjuree";
     margin: 1rem 0 0.2rem 0;
+    /* margin: auto; */
+    text-align: center;
+    color: black;
 }
 
-.social-platform-list table {
-    margin: auto;
+.social-platform-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.social-platform-list table td {
+.social-platform-list img {
     display: inline-block;
     margin: 50px 15px 40px 30px;
 }
+
+@media screen and (min-width:500px) {
+
+    .content h3 {
+        font-size: 25px;
+    }
+
+    .download-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .download-buttons button {
+        display: inline;
+        margin: 2rem 10px 0 10px;
+    }
+
+    .advantages>div {
+        /* margin-top: 1rem; */
+        position: relative;
+        top: 5rem;
+    }
+
+    .advantages {
+        display: flex;
+        margin-top: 4rem;
+    }
+
+    .advantages h3 {
+        text-align: center;
+        padding: 0;
+        margin: 0 0 0 5rem;
+    }
+
+    .advantages p {
+        text-align: center;
+        margin: 0.5rem 0 3rem 5rem;
+    }
+
+    .computer-image {
+        max-width: 400px;
+        padding: 0;
+        margin: 2rem 1rem 0 4rem;
+    }
+
+    .image-devices {
+        max-width: 400px;
+    }
+
+    .advantage-with-icon>div {
+        display: flex;
+    }
+
+    .using-companies {
+        /* display: flex; */
+        flex-direction: row;
+    }
+
+    .app-store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .quick-links {
+        /* margin: 0 0px 0 80px; */
+    }
+
+    .quick-links img {
+        max-width: 40px;
+    }
+
+    .quick-link-options {
+        display: grid;
+        grid-template-columns: repeat(3, 160px);
+        /* margin: 0 0 0 80px; */
+    }
+
+    #item1 {
+        order: 0;
+    }
+
+    #item2 {
+        order: 3;
+    }
+
+    #item3 {
+        order: 1;
+    }
+
+    #item4 {
+        order: 5;
+    }
+
+    #item5 {
+        order: 2;
+    }
+
+    .quick-link-options a {
+        text-align: left;
+    }
+
+    .social-platform-list {
+        /* margin: -57px 0 0 20px; */
+    }
+}
+
+/* .quick-links img {
+        margin: 0 3rem 0 4rem;
+    }
+
+    .quick-link-options {
+        display: grid;
+        grid-template-columns: repeat(3, 180px);
+        text-align: center;
+    }
+
+    .quick-link-options a {
+        text-align: left;
+    }
+
+    #item1 {
+        order: 0;
+    }
+
+    #item2 {
+        order: 3;
+    }
+
+    #item3 {
+        order: 1;
+    }
+
+    #item4 {
+        order: 5;
+    }
+
+    #item5 {
+        order: 2;
+    }
+
+    .social-platform-list {
+        display: flex;
+        flex-direction: row;
+        margin: -40px;
+    } */
