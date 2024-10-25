@@ -38,7 +38,7 @@
 }
 
 .content h3 {
-    font-size: 22px;
+    font-size: 30px;
     margin: 5rem 2rem 0 2rem;
     padding: 0 20px 0 20px;
     /* color: hsl(213, 6%, 34%); */
@@ -59,7 +59,7 @@
 }
 
 .download-buttons button {
-    padding: 15px 40px;
+    padding: 15px 60px;
     border-radius: 25px;
     display: block;
     margin: 2rem auto -12px;
@@ -67,7 +67,8 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    box-shadow: 0 0 10px #26bba5;
+    cursor: pointer;
+    /* box-shadow: 0 0 10px #26bba5; */
 }
 
 .download-buttons button:nth-of-type(1) {
@@ -95,7 +96,7 @@
     font-family: "Bai Jamjuree";
     color: hsl(210, 10%, 33%);
     /* border: 1px solid grey; */
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .advantage-with-image p {
@@ -119,13 +120,13 @@
 }
 
 .advantages h3 {
-    margin: auto;
+    margin: auto 2rem;
     padding: 1rem 0 0.5rem 0;
     text-align: center;
     font-family: "Bai Jamjuree";
     color: hsl(210, 10%, 33%);
     font-family: 600;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .advantages p {
@@ -138,15 +139,40 @@
 }
 
 .app-store h3 {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.cfgh {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 25px;
 }
 
 .advantage-with-icon {
+    display: flex;
+    flex-direction: column;
     margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.advantage-with-icon>h3 {
-    font-size: 25px;
+.cfgh h3 {
+    margin: auto 2rem;
+    padding: 1rem 0 0.5rem 0;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    color: hsl(210, 10%, 33%);
+    font-family: 600;
+    font-size: 30px;
+}
+
+.cfgh p {
+    margin: 0 2rem 1rem 2rem;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
 }
 
 .advantage-with-icon h3 {
@@ -156,7 +182,7 @@
     font-family: "Bai Jamjuree";
     color: hsl(210, 10%, 33%);
     font-family: 600;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .advantage-with-icon p {
@@ -221,10 +247,10 @@
     margin: 50px 15px 40px 30px;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:550px) {
 
     .content h3 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .download-buttons {
@@ -262,7 +288,7 @@
 
     .advantages p {
         text-align: center;
-        margin: 0.5rem 0 3rem 5rem;
+        margin: 0.5rem 5rem 3rem 5rem;
     }
 
     .computer-image {
@@ -273,7 +299,8 @@
     }
 
     .image-devices {
-        max-width: 400px;
+        /* max-width: 400px; */
+        max-width: 480px;
     }
 
     .advantage-with-icon>div {
