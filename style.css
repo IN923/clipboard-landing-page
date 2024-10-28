@@ -175,6 +175,14 @@
     text-align: center;
 }
 
+.advantage-with-icon {
+    padding: 0 5px 0 5px
+}
+
+.advantage-with-icon div {
+    padding: 0 5px 0 5px;
+}
+
 .advantage-with-icon h3 {
     margin: auto;
     padding: 1rem 0 0.5rem 0;
@@ -209,6 +217,7 @@
     max-width: 150px;
     margin: 1rem auto 3rem;
     display: block;
+    padding: 0 5px 0 5px;
 }
 
 .footer {
