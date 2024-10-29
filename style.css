@@ -285,7 +285,7 @@
     .advantages>div {
         /* margin-top: 1rem; */
         position: relative;
-        top: 5rem;
+        top: 1rem;
     }
 
     .advantages {
@@ -294,18 +294,20 @@
     }
 
     .advantages h3 {
-        text-align: center;
-        padding: 0;
-        margin: 0 0 0 5rem;
+        /* text-align: center; */
+        /* padding: 0; */
+        /* margin: 0 0 0 5rem; */
     }
 
     .advantages p {
-        text-align: center;
-        margin: 0.5rem 5rem 3rem 5rem;
+        /* text-align: center; */
+        /* margin: 0.5rem 5rem 3rem 5rem; */
     }
 
     .computer-image {
-        max-width: 400px;
+        max-width: 610px;
+        /* max-height: 641px; */
+        display: block;
         padding: 0;
         /* margin: 2rem 1rem 0 4rem; */
         padding: 0.5rem 0 3rem 5rem;
