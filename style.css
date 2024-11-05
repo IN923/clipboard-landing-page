@@ -289,7 +289,8 @@
 
     .advantages {
         display: flex;
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
+        margin-top: 0;
     }
 
     .computer-image {
@@ -300,6 +301,14 @@
         /* margin: 2rem 1rem 0 4rem; */
         /* padding: 0.5rem 0 3rem 5rem; */
         margin: 0;
+    }
+
+    .advantage-with-image {
+        margin-top: 0;
+    }
+
+    .advantage-with-image h3 {
+        margin-top: 2rem;
     }
 
     .image-devices {
